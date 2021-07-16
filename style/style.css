@@ -10,46 +10,49 @@ main{
 }
 
 .logo_elemento{
-    position: absolute;
     top: 50%;
     left: 50%;
+
+    position: absolute;
+
     transform: translate(-50%,-50%);
 }
 
 .search_container{
-    margin: auto;
-    margin-top: 20px    ;
-    position: relative;
     width: 549px;
     height: 44px;
-    border: 1px solid #dfe1e5;
+
+    margin: auto;
+    margin-top: 20px;
     padding: 0px 10px;
+
+    position: relative;
+
+    border: 1px solid #dfe1e5;
     border-radius: 50px;
 }
 
 .search_element{
     width: 100%;
     height: 100%;
-    vertical-align: middle;
+
+    vertical-align: bottom;
 }
 
 .search{
-    border: none;
     width: 100%;
     height: 100%;
+
     padding: 0px 5px;
+
+    border: none;
     border-radius: 50px;
+
     font-size: 15px;
 }
 
 .search:focus{
     outline: none;
-}
-
-.icon{
-    font-size: 20px;
-    color: #9aa0a6;
-    vertical-align: middle;
 }
 
 .btn{
@@ -72,5 +75,40 @@ main{
     border: 1px solid #dadce0;
 }
 
+.navbar {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navbar a{
+    display: block;
+    text-decoration: none;
+    float: right;
+
+    margin-top: 6px;
+    padding: 10px;
+
+    font-family: Arial;
+    font-size: 13px;
+    color: #3c4043;
+}
+
+.navbar a:hover{
+    text-decoration-line: underline;
+}
+
+.nav_profile{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    background-image: url(https://avatars.githubusercontent.com/u/83665862?s=400&u=50195b57a4354f9bbcdb2ef4a7762f769228bc50&v=4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
 
 
