@@ -18,12 +18,13 @@ main{
 
 .search_container{
     margin: auto;
+    margin-top: 20px    ;
     position: relative;
     width: 549px;
     height: 44px;
     border: 1px solid #dfe1e5;
     padding: 0px 10px;
-    border-radius:50px
+    border-radius: 50px;
 }
 
 .search_element{
@@ -38,10 +39,37 @@ main{
     height: 100%;
     padding: 0px 5px;
     border-radius: 50px;
+    font-size: 15px;
 }
 
 .search:focus{
     outline: none;
+}
+
+.icon{
+    font-size: 20px;
+    color: #9aa0a6;
+    vertical-align: middle;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+
+    font-family:Arial;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+
+    margin: 29px 11px;
+    padding: 10px 16px;
+
+    border: 1px solid #f8f9fa;
+    border-radius: 4px
+}
+
+.btn:hover{
+    border: 1px solid #dadce0;
 }
 
 
